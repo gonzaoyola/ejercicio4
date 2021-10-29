@@ -5,17 +5,31 @@
  */
 package Main;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Gonzalo
  */
 public class Main_Github {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner leer = new Scanner(System.in);
+        
+        numero();
+        
+    }
+    
+    public static void numero() {
+        Scanner leer1 = new Scanner(System.in);
+        System.out.println("Ingrese un numero del 1 al 10?");
+        int num = leer1.nextInt();
+        
+        if (num % 2 == 0) {
+            System.out.println("El numero es par");
+        }else{
+            System.out.println("El numero es impar");
+        }
     }
     
 }

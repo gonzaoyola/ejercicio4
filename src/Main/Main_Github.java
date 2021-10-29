@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Main_Github {
     
     public static void main(String[] args) {
+
         Scanner leer = new Scanner(System.in);
         
         numero();
@@ -30,6 +31,8 @@ public class Main_Github {
         }else{
             System.out.println("El numero es impar");
         }
+
+       
     }
     
 }

@@ -9,10 +9,6 @@ package Entidad;
  *
  * @author Sergio
  */
-public class Pato {
-    private String raza;
-    private String color;
-    private int edad;
-    
-    
+public class GonzaCagon {
+    private boolean cagon;
 }
